@@ -1,27 +1,64 @@
-# PsnStore
+# Clone da PSN Store - Projeto Angular 14
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Este projeto Angular 14 tem como objetivo clonar a interface da PSN Store, seguindo boas práticas de desenvolvimento, componentização a nível atômico e o uso de serviços e repositórios com injeção de dependência.
 
-## Development server
+## Pré-requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Antes de começar, verifique se você atende aos seguintes requisitos:
 
-## Code scaffolding
+- [Node.js](https://nodejs.org/) instalado.
+- [Angular CLI](https://angular.io/cli) instalado globalmente.
+- Conexão com a internet para acessar as dependências do projeto.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalação
 
-## Build
+Para clonar e executar este projeto, siga estas etapas:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone o repositório para o seu sistema local:
 
-## Running unit tests
+```bash
+git clone https://github.com/seu-usuario/psn-store-clone.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Navegue até o diretório do projeto:
 
-## Running end-to-end tests
+```bash
+cd psn-store-clone
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Instale as dependências do projeto:
 
-## Further help
+```bash
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Uso
+
+Para executar o projeto, use o Angular CLI:
+
+```bash
+ng serve
+```
+
+O aplicativo estará disponível em `http://localhost:4200/`. Você pode acessá-lo em seu navegador.
+
+## Estrutura do Projeto
+
+O projeto está estruturado com base em boas práticas de desenvolvimento. Ele utiliza componentização a nível atômico, serviços e repositórios com injeção de dependência. Aqui está uma visão geral da estrutura:
+
+- `src/app/components`: Contém os componentes do projeto, organizados de forma atômica.
+- `src/app/services`: Contém os serviços utilizados para buscar dados e realizar lógica de negócios.
+- `src/app/repositories`: Contém os repositórios que fazem a interface entre os serviços e os componentes.
+- Outros diretórios e arquivos de configuração do Angular.
+
+## Contribuição
+
+Sinta-se à vontade para contribuir com este projeto. Você pode abrir problemas (issues) e enviar solicitações de pull (pull requests) para melhorias.
+
+## Licença
+
+Este projeto é licenciado sob os termos da Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+
+---
+
+Este é um exemplo de README para o seu projeto Angular 14. Lembre-se de personalizar o conteúdo e a estrutura de acordo com as necessidades específicas do seu projeto. Certifique-se de incluir informações relevantes, instruções de uso e os detalhes da licença apropriada.
