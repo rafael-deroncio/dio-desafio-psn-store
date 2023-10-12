@@ -1,1 +1,13 @@
-<p>card-price works!</p>
+<div class="container__card-price">
+  <app-card-title title="{{ title }}"></app-card-title>
+
+  <div class="value__card-price">
+    <div class="value-console__card-price">
+      <span>|</span>
+      <p>{{ plataforms.join(' ') }}</p>
+    </div>
+    <div class="value-money__card-price">
+      <p class="game-price">{{ price }}</p>
+    </div>
+  </div>
+</div>

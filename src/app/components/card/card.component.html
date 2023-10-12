@@ -1,4 +1,9 @@
 <a href="" class="container__card">
-  <img class="card__imagem" src="\assets\cards\spider-man-2-card.jpg" alt="">
-  <app-card-label label={{model.label}}></app-card-label>
+  <img class="card__imagem" src="{{ card.imgCard }}" alt="cover" />
+  <app-card-label *ngIf="card.label != ''" label="{{ card.label }}"></app-card-label>
+  <app-card-price
+    title="{{ card.name }}"
+    [plataforms]="card.plataforms"
+    price="R$ {{ card.price.toString().replace('.', ',') }}"
+  ></app-card-price>
 </a>
