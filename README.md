@@ -17,7 +17,7 @@ Para clonar e executar este projeto, siga estas etapas:
 1. Clone o repositório para o seu sistema local:
 
 ```bash
-git clone https://github.com/seu-usuario/psn-store-clone.git
+git clone https://github.com/rafael-deroncio/dio-desafio-psn-store
 ```
 
 2. Navegue até o diretório do projeto:
@@ -48,7 +48,6 @@ O projeto está estruturado com base em boas práticas de desenvolvimento. Ele u
 
 - `src/app/components`: Contém os componentes do projeto, organizados de forma atômica.
 - `src/app/services`: Contém os serviços utilizados para buscar dados e realizar lógica de negócios.
-- `src/app/repositories`: Contém os repositórios que fazem a interface entre os serviços e os componentes.
 - Outros diretórios e arquivos de configuração do Angular.
 
 ## Contribuição
@@ -58,7 +57,3 @@ Sinta-se à vontade para contribuir com este projeto. Você pode abrir problemas
 ## Licença
 
 Este projeto é licenciado sob os termos da Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
-
----
-
-Este é um exemplo de README para o seu projeto Angular 14. Lembre-se de personalizar o conteúdo e a estrutura de acordo com as necessidades específicas do seu projeto. Certifique-se de incluir informações relevantes, instruções de uso e os detalhes da licença apropriada.
